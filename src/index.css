@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Overlock;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: transparent url("./public/background.jpg") no-repeat right bottom;
+  background-size: cover;
+  background-attachment: fixed;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  height: 100%;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: Overlock;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
